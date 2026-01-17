@@ -8,6 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Refactor 2
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -30,7 +31,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+# Refactor 3
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
